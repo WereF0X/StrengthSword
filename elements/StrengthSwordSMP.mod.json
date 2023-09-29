@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "StrengthSword SMP",
+    "icon": {
+      "value": "Items.BLAZE_POWDER"
+    },
+    "showSearch": false
+  }
+}

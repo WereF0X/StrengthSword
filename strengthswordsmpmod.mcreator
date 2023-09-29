@@ -1,0 +1,370 @@
+{
+  "mod_elements": [
+    {
+      "name": "StrengthSwordSMP",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_sword_smp",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StrengthSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/item/StrengthSwordItem.java",
+          "src/main/resources/assets/strengthswordsmpmod/models/item/strength_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Swordobtained",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordobtained",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/SwordobtainedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhosGonnaStopMeNow",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whos_gonna_stop_me_now",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/strengthswordsmpmod/advancements/whos_gonna_stop_me_now.json"
+        ]
+      }
+    },
+    {
+      "name": "Swordisobtained",
+      "type": "function",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordisobtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/strengthswordsmpmod/functions/swordisobtained.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "StrengthSwordRightclicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/StrengthSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HOnKeyPressed",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/HOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Buff",
+      "type": "potion",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buff",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Debuff",
+      "type": "potion",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debuff",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "K",
+      "type": "keybind",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/network/KMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "KOnKeyPressed",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/KOnKeyPressedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "StrengthSwordBiome",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_sword_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/strengthswordsmpmod/worldgen/placed_feature/strength_sword_biome_tree.json",
+          "src/main/resources/data/strengthswordsmpmod/worldgen/configured_feature/strength_sword_biome_tree.json",
+          "src/main/resources/data/strengthswordsmpmod/worldgen/biome/strength_sword_biome.json"
+        ]
+      }
+    },
+    {
+      "name": "StrengthBoss",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/client/renderer/StrengthBossRenderer.java",
+          "src/main/resources/assets/strengthswordsmpmod/models/item/strength_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/strengthswordsmpmod/entity/StrengthBossEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Boss",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/strengthswordsmpmod/advancements/boss.json"
+        ]
+      }
+    },
+    {
+      "name": "Bossiskilled",
+      "type": "loottable",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossiskilled",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/strengthswordsmpmod/loot_tables/entities/bossiskilled.json"
+        ]
+      }
+    },
+    {
+      "name": "Bosskilled",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bosskilled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/BosskilledProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kill",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/KillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrengthSwordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_sword_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/StrengthSwordEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dragonkill",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonkill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/DragonkillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Option 2 "
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.strengthswordsmpmod.strength_sword_smp": "StrengthSword SMP",
+      "entity.strengthswordsmpmod.strength_boss": "StrengthSword Protector",
+      "advancements.whos_gonna_stop_me_now.descr": "Obtain the StrengthSword",
+      "item.minecraft.lingering_potion.effect.buff": "Buff Potion",
+      "item.minecraft.tipped_arrow.effect.debuff": "Debuff Potion",
+      "item.strengthswordsmpmod.strength_boss_spawn_egg": "StrengthSword Protector Spawn Egg",
+      "item.minecraft.splash_potion.effect.buff": "Buff Potion",
+      "item.minecraft.lingering_potion.effect.debuff": "Debuff Potion",
+      "key.strengthswordsmpmod.k": "K",
+      "biome.strengthswordsmpmod.strength_sword_biome": "Strength Sword Biome",
+      "advancements.whos_gonna_stop_me_now.title": "Who\u0027s Gonna Stop Me Now?",
+      "item.minecraft.potion.effect.buff": "Buff Potion",
+      "item.strengthswordsmpmod.strength_sword": "StrengthSword",
+      "item.minecraft.tipped_arrow.effect.buff": "Buff Potion Arrow",
+      "item.minecraft.potion.effect.debuff": "Debuff Potion",
+      "advancements.boss.descr": "Defeat the StrengthSword Protector",
+      "item.minecraft.splash_potion.effect.debuff": "Debuff Potion",
+      "advancements.boss.title": "Who\u0027s the boss now?"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Option 2 ",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "strengthswordsmpmod",
+    "modName": "StrengthSwordSMPMod",
+    "version": "1.2.2",
+    "author": "The_WereF0X",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "The_WereF0X",
+    "modElementsPackage": "net.mcreator.strengthswordsmpmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

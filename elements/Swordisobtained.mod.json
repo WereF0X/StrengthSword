@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "function",
+  "definition": {
+    "code": "package net.mcreator.strengthswordsmpmod.procedures;\n\n/* imports omitted */\n\n@Mod.EventBusSubscriber\npublic class SwordobtainedProcedure {\n\t@SubscribeEvent\n\tpublic static void onAdvancement(AdvancementEvent event) {\n\t\texecute(event, event.getEntity());\n\t}\n\n\tpublic static void execute(Entity entity) {\n\t\texecute(null, entity);\n\t}\n\n\tprivate static void execute(@Nullable Event event, Entity entity) {\n\t\tif (entity == null)\n\t\t\treturn;\n\t\tif (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(StrengthswordsmpmodModItems.STRENGTH_SWORD.get())) : false) {\n\t\t\t{\n\t\t\t\tEntity _ent = entity;\n\t\t\t\tif (!_ent.level.isClientSide() && _ent.getServer() != null) {\n\t\t\t\t\t_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,\n\t\t\t\t\t\t\t_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), \"/tellraw @a {\\\"text\\\":\\\"The StrengthSword has been obtained!\\\",\\\"bold\\\":true,\\\"color\\\":\\\"red\\\"}\");\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
+    "name": "swordisobtained",
+    "namespace": "mod"
+  }
+}

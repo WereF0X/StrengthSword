@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Buff Potion",
+    "splashName": "Buff Potion",
+    "lingeringName": "Buff Potion",
+    "arrowName": "Buff Potion Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 800,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 800,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "INSTANT_HEALTH"
+        },
+        "duration": 300,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 800,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

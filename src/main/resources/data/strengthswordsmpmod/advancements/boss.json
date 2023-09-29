@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "strengthswordsmpmod:strength_boss_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.boss.title"
+    },
+    "description": {
+      "translate": "advancements.boss.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "boss": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "loot": [
+      "strengthswordsmpmod:entities/bossiskilled"
+    ]
+  },
+  "parent": "strengthswordsmpmod:whos_gonna_stop_me_now"
+}
