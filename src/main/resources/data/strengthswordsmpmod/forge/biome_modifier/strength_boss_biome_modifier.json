@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "strengthswordsmpmod:strength_sword_biome",
+  "spawners": {
+    "type": "strengthswordsmpmod:strength_boss",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

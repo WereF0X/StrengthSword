@@ -1,6 +1,9 @@
 {
-  "parent": "item/handheld",
+  "parent": "strengthswordsmpmod:custom/sword2",
   "textures": {
-    "layer0": "strengthswordsmpmod:item/unnamed"
+    "0": "strengthswordsmpmod:block/swordtexture",
+    "1": "strengthswordsmpmod:block/swordtexture2png",
+    "missing": "strengthswordsmpmod:block/",
+    "particle": "strengthswordsmpmod:item/unnamed"
   }
 }

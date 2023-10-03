@@ -3,14 +3,14 @@
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
-    "renderType": 0,
+    "renderType": 1,
     "texture": "unnamed",
-    "customModelName": "Normal",
+    "customModelName": "sword2:default",
     "name": "StrengthSword",
     "specialInfo": [
-      "The only Sword in the server. Abilities: Right click",
-      "H",
-      "K"
+      "Abilities:",
+      "Right click: Strength",
+      "Left click: Lightning Bolt"
     ],
     "creativeTab": {
       "value": "CUSTOM:StrengthSwordSMP"

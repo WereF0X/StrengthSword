@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.strengthswordsmpmod.init.StrengthswordsmpmodModPotions;
+import net.mcreator.strengthswordsmpmod.init.StrengthswordsmpmodModMenus;
 import net.mcreator.strengthswordsmpmod.init.StrengthswordsmpmodModItems;
 import net.mcreator.strengthswordsmpmod.init.StrengthswordsmpmodModEntities;
 
@@ -55,6 +56,7 @@ public class StrengthswordsmpmodMod {
 		StrengthswordsmpmodModEntities.REGISTRY.register(bus);
 
 		StrengthswordsmpmodModPotions.REGISTRY.register(bus);
+		StrengthswordsmpmodModMenus.REGISTRY.register(bus);
 
 	}
 

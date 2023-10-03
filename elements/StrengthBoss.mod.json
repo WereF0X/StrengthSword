@@ -24,7 +24,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "CUSTOM:StrengthSwordSMP"
+      "value": "No creative tab entry"
     },
     "isBoss": true,
     "bossBarColor": "RED",
@@ -109,7 +109,7 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 700,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": false,
+    "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 1,
     "mobSpawningType": "monster",

@@ -3,7 +3,7 @@
     {
       "name": "StrengthSwordSMP",
       "type": "tab",
-      "sortid": 2,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength_sword_smp",
@@ -28,7 +28,7 @@
     {
       "name": "Swordobtained",
       "type": "procedure",
-      "sortid": 3,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swordobtained",
@@ -47,7 +47,7 @@
     {
       "name": "WhosGonnaStopMeNow",
       "type": "achievement",
-      "sortid": 4,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "whos_gonna_stop_me_now",
@@ -60,7 +60,7 @@
     {
       "name": "Swordisobtained",
       "type": "function",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swordisobtained",
@@ -73,7 +73,7 @@
     {
       "name": "StrengthSwordRightclicked",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength_sword_rightclicked",
@@ -96,7 +96,7 @@
     {
       "name": "HOnKeyPressed",
       "type": "procedure",
-      "sortid": 7,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "h_on_key_pressed",
@@ -119,7 +119,7 @@
     {
       "name": "Buff",
       "type": "potion",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buff",
@@ -130,7 +130,7 @@
     {
       "name": "Debuff",
       "type": "potion",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debuff",
@@ -141,7 +141,7 @@
     {
       "name": "K",
       "type": "keybind",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "k",
@@ -149,20 +149,6 @@
         "files": [
           "src/main/java/net/mcreator/strengthswordsmpmod/network/KMessage.java"
         ]
-      }
-    },
-    {
-      "name": "KOnKeyPressed",
-      "type": "procedure",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "k_on_key_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/KOnKeyPressedProcedure.java"
-        ],
-        "dependencies": []
       }
     },
     {
@@ -183,7 +169,7 @@
     {
       "name": "StrengthBoss",
       "type": "livingentity",
-      "sortid": 14,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength_boss",
@@ -191,6 +177,7 @@
         "files": [
           "src/main/java/net/mcreator/strengthswordsmpmod/client/renderer/StrengthBossRenderer.java",
           "src/main/resources/assets/strengthswordsmpmod/models/item/strength_boss_spawn_egg.json",
+          "src/main/resources/data/strengthswordsmpmod/forge/biome_modifier/strength_boss_biome_modifier.json",
           "src/main/java/net/mcreator/strengthswordsmpmod/entity/StrengthBossEntity.java"
         ]
       }
@@ -198,7 +185,7 @@
     {
       "name": "Boss",
       "type": "achievement",
-      "sortid": 15,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boss",
@@ -211,7 +198,7 @@
     {
       "name": "Bossiskilled",
       "type": "loottable",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bossiskilled",
@@ -224,7 +211,7 @@
     {
       "name": "Bosskilled",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bosskilled",
@@ -247,7 +234,7 @@
     {
       "name": "Kill",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kill",
@@ -266,7 +253,7 @@
     {
       "name": "StrengthSwordEntitySwingsItem",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength_sword_entity_swings_item",
@@ -295,21 +282,162 @@
       }
     },
     {
-      "name": "Dragonkill",
+      "name": "Dragoneggcr",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragoneggcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/strengthswordsmpmod/recipes/dragoneggcr.json"
+        ]
+      },
+      "path": "~/Option 2 "
+    },
+    {
+      "name": "StrengthSyrumRightclicked",
       "type": "procedure",
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dragonkill",
+      "registry_name": "strength_syrum_rightclicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/DragonkillProcedure.java"
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/StrengthSyrumRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrengthSyrum",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_syrum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/item/StrengthSyrumItem.java",
+          "src/main/resources/assets/strengthswordsmpmod/models/item/strength_syrum.json"
+        ]
+      }
+    },
+    {
+      "name": "Command",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/CommandProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "Newfeatures",
+      "type": "command",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newfeatures",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/command/NewfeaturesCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Serum",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/strengthswordsmpmod/recipes/serum.json"
+        ]
+      }
+    },
+    {
+      "name": "Recipes",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/world/inventory/RecipesMenu.java",
+          "src/main/java/net/mcreator/strengthswordsmpmod/client/gui/RecipesScreen.java"
+        ]
+      },
+      "path": "~/Option 2 "
+    },
+    {
+      "name": "YOnKeyPressed",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/procedures/YOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Option 2 "
+    },
+    {
+      "name": "Y",
+      "type": "keybind",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/strengthswordsmpmod/network/YMessage.java"
         ]
       },
       "path": "~/Option 2 "
@@ -325,8 +453,10 @@
       "item.minecraft.lingering_potion.effect.buff": "Buff Potion",
       "item.minecraft.tipped_arrow.effect.debuff": "Debuff Potion",
       "item.strengthswordsmpmod.strength_boss_spawn_egg": "StrengthSword Protector Spawn Egg",
+      "gui.strengthswordsmpmod.recipes.label_strength_serum": "Strength Serum",
       "item.minecraft.splash_potion.effect.buff": "Buff Potion",
       "item.minecraft.lingering_potion.effect.debuff": "Debuff Potion",
+      "gui.strengthswordsmpmod.recipes.label_strengthsword": "StrengthSword",
       "key.strengthswordsmpmod.k": "K",
       "biome.strengthswordsmpmod.strength_sword_biome": "Strength Sword Biome",
       "advancements.whos_gonna_stop_me_now.title": "Who\u0027s Gonna Stop Me Now?",
@@ -336,6 +466,9 @@
       "item.minecraft.potion.effect.debuff": "Debuff Potion",
       "advancements.boss.descr": "Defeat the StrengthSword Protector",
       "item.minecraft.splash_potion.effect.debuff": "Debuff Potion",
+      "item.strengthswordsmpmod.strength_syrum": "Strength Serum",
+      "gui.strengthswordsmpmod.recipes.label_recipes": "Recipes",
+      "key.strengthswordsmpmod.y": "Recipes",
       "advancements.boss.title": "Who\u0027s the boss now?"
     }
   },

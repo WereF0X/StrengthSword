@@ -1,0 +1,7 @@
+{
+  "_fv": 47,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"55\" y=\"59\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/tellraw @a [\"\",{\"text\":\"Strength\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\"Sword \",\"bold\":true,\"color\":\"red\"},{\"text\":\"SMP\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"\\n\"},{\"text\":\"FEATURES:\",\"color\":\"aqua\"},{\"text\":\"\\n\"},{\"text\":\"- StrengthSword (3D Model)\\n- Strength Serum (3D Model)\\n- Buff and Debuff Potions (Creative Mode Only)\",\"color\":\"green\"},{\"text\":\"\\n\"},{\"text\":\"- StrengthBiome (OLD)\\n- StrengthSword Protector (OLD) (/summon Only)\",\"color\":\"dark_green\"},{\"text\":\"\\n\"},{\"text\":\"PRESS Y TO SEE ALL THE RECIPES!\",\"bold\":true,\"color\":\"light_purple\"}]</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:quartz"
+    },
+    "2": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "3": {
+      "item": "minecraft:quartz"
+    },
+    "4": {
+      "item": "minecraft:dragon_egg"
+    },
+    "5": {
+      "item": "minecraft:quartz"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "strengthswordsmpmod:strength_sword",
+    "count": 1
+  }
+}

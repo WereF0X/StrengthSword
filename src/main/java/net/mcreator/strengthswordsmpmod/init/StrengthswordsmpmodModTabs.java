@@ -20,7 +20,7 @@ public class StrengthswordsmpmodModTabs {
 		event.registerCreativeModeTab(new ResourceLocation("strengthswordsmpmod", "strength_sword_smp"),
 				builder -> builder.title(Component.translatable("item_group.strengthswordsmpmod.strength_sword_smp")).icon(() -> new ItemStack(Items.BLAZE_POWDER)).displayItems((parameters, tabData) -> {
 					tabData.accept(StrengthswordsmpmodModItems.STRENGTH_SWORD.get());
-					tabData.accept(StrengthswordsmpmodModItems.STRENGTH_BOSS_SPAWN_EGG.get());
+					tabData.accept(StrengthswordsmpmodModItems.STRENGTH_SYRUM.get());
 				})
 
 		);

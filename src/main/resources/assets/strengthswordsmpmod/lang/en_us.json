@@ -5,8 +5,10 @@
   "item.minecraft.lingering_potion.effect.buff": "Buff Potion",
   "item.minecraft.tipped_arrow.effect.debuff": "Debuff Potion",
   "item.strengthswordsmpmod.strength_boss_spawn_egg": "StrengthSword Protector Spawn Egg",
+  "gui.strengthswordsmpmod.recipes.label_strength_serum": "Strength Serum",
   "item.minecraft.splash_potion.effect.buff": "Buff Potion",
   "item.minecraft.lingering_potion.effect.debuff": "Debuff Potion",
+  "gui.strengthswordsmpmod.recipes.label_strengthsword": "StrengthSword",
   "key.strengthswordsmpmod.k": "K",
   "biome.strengthswordsmpmod.strength_sword_biome": "Strength Sword Biome",
   "advancements.whos_gonna_stop_me_now.title": "Who\u0027s Gonna Stop Me Now?",
@@ -16,5 +18,8 @@
   "item.minecraft.potion.effect.debuff": "Debuff Potion",
   "advancements.boss.descr": "Defeat the StrengthSword Protector",
   "item.minecraft.splash_potion.effect.debuff": "Debuff Potion",
+  "item.strengthswordsmpmod.strength_syrum": "Strength Serum",
+  "gui.strengthswordsmpmod.recipes.label_recipes": "Recipes",
+  "key.strengthswordsmpmod.y": "Recipes",
   "advancements.boss.title": "Who\u0027s the boss now?"
 }

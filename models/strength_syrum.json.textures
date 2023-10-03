@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture1strength",
+        "1": "texture2strength",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

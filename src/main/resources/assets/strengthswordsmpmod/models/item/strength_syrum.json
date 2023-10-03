@@ -1,0 +1,9 @@
+{
+  "parent": "strengthswordsmpmod:custom/strength_syrum",
+  "textures": {
+    "0": "strengthswordsmpmod:block/texture1strength",
+    "1": "strengthswordsmpmod:block/texture2strength",
+    "missing": "strengthswordsmpmod:block/",
+    "particle": "strengthswordsmpmod:item/texture2strength"
+  }
+}

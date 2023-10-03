@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:poppy"
+    },
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "2": {
+      "item": "minecraft:poppy"
+    },
+    "3": {
+      "item": "minecraft:redstone_block"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "minecraft:redstone_block"
+    },
+    "6": {
+      "item": "minecraft:poppy"
+    },
+    "7": {
+      "item": "minecraft:redstone_block"
+    },
+    "8": {
+      "item": "minecraft:poppy"
+    }
+  },
+  "result": {
+    "item": "strengthswordsmpmod:strength_syrum",
+    "count": 1
+  }
+}
